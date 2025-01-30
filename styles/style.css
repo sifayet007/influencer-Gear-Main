@@ -133,3 +133,24 @@
   color: #ffffff;
   padding: 10px 24px 10px 24px;
 }
+/* footer section */
+.footer-container {
+  text-align: center;
+  background-color: #0a0826;
+  padding: 50px 589px;
+  margin-top: 100px;
+}
+.footer-content {
+  color: #ffffff;
+}
+.footer-copyright {
+  color: #d9dbe1;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+.footer-icon {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
