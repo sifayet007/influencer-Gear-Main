@@ -154,3 +154,116 @@
   justify-content: center;
   margin-top: 15px;
 }
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    margin: 0;
+    display: grid;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .camera-container {
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+  .camera-img > img {
+    width: 80%;
+  }
+  .camera-img {
+    text-align: center;
+    background-position: center;
+  }
+  .canera-content {
+    justify-content: center;
+  }
+  .camera-title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .light-gray {
+    font-size: 14px;
+    text-align: center;
+  }
+  .camera-btn {
+    display: grid;
+  }
+
+  /* sponsor section responsive */
+  .sponsor-container {
+    margin: 0;
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+    align-items: baseline;
+  }
+  .sponsor-container > img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .popular-container {
+    margin: 0;
+  }
+
+  .popular-section-title {
+    font-size: 14px;
+  }
+
+  .popular-card-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-container {
+    margin: 0;
+    flex-direction: column-reverse;
+    padding: 50px;
+    text-align: center;
+  }
+  .features-title {
+    font-size: 24px;
+  }
+  .features-container > img {
+    padding: 50px;
+  }
+  .footer-container {
+    padding: 50px;
+    margin-top: 20px;
+  }
+
+  /* .nav-container {
+    margin: 0;
+    display: grid;
+
+    text-align: center;
+    padding: 10px;
+  }
+  .camera-container {
+    flex-direction: column-reverse;
+    margin: 20px 10px 20px 10px;
+  }
+  .camera-content {
+    text-align: center;
+  }
+  .camera-img {
+    background-size: contain;
+  }
+  .camera-title {
+    font-size: 28px;
+  }
+  .light-gray {
+    font-size: 14px;
+  }
+  .popular-section-title {
+    font-size: 16px;
+  }
+  .popular-card-section {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  } */
+}
